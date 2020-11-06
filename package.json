@@ -64,6 +64,7 @@
     ],
     "usedBy": [
       "bitdiver/definition",
+      "bitdiver/logadapter-arangodb",
       "bitdiver/model",
       "xhubioTable/data-generator",
       "xhubioTable/file-processor",
