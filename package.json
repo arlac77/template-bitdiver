@@ -66,6 +66,7 @@
       "bitdiver/definition",
       "bitdiver/logadapter-arangodb",
       "bitdiver/model",
+      "bitdiver/runner-server",
       "xhubioTable/data-generator",
       "xhubioTable/file-processor",
       "xhubioTable/importer-xlsx",
