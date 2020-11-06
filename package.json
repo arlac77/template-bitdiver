@@ -63,7 +63,8 @@
       }
     ],
     "usedBy": [
-      "xhubioTable/importer-xlsx"
+      "xhubioTable/importer-xlsx",
+      "xhubioTable/model"
     ]
   }
 }
