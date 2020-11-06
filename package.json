@@ -1,11 +1,9 @@
 {
   "template": {
-    "inheridFrom": [],
+    "inheritFrom": [
+      "arlac77/template-npm"
+    ],
     "mergers": [
-      {
-        "type": "Skip",
-        "pattern": ".travis.yml"
-      },
       {
         "type": "YAML",
         "pattern": ".github/workflows/*.yml",
@@ -23,28 +21,6 @@
               "key": "id|name|uses|run"
             }
           }
-        }
-      },
-      {
-        "type": "MergeLineSet",
-        "pattern": ".npmignore",
-        "options": {
-          "messagePrefix": "chore(npm): ",
-          "ignore": [
-            "",
-            ".*.swp",
-            "._*",
-            ".DS_Store",
-            ".git",
-            ".hg",
-            ".npmrc",
-            ".lock-wscript",
-            ".svn",
-            ".wafpickle-*",
-            "config.gypi",
-            "CVS",
-            "npm-debug.log"
-          ]
         }
       },
       {
