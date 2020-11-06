@@ -63,7 +63,7 @@
       }
     ],
     "usedBy": [
-      "xhubioTable/model-decision"
+      "xhubioTable/model-matrix"
     ]
   }
 }
