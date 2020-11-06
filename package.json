@@ -63,9 +63,9 @@
       }
     ],
     "usedBy": [
+      "xhubioTable/data-generator",
       "xhubioTable/file-processor",
       "xhubioTable/importer-xlsx",
-      "xhubioTable/logger",
       "xhubioTable/model",
       "xhubioTable/processor"
     ]
