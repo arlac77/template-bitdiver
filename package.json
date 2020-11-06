@@ -1,0 +1,45 @@
+{
+  "template": {
+    "inheridFrom": [
+    ],
+    "mergers": [
+      {
+        "type": "Skip",
+        "pattern": ".travis.yml"
+      },
+      {
+        "type": "YAML",
+        "pattern": ".github/workflows/*.yml",
+        "options": {
+          "messagePrefix": "chore(actions): ",
+          "mergeHints": {
+            "*": {
+              "removeEmpty": true
+            },
+            "*.matrix.node-version": {
+              "scope": "deps",
+              "merge": "mergeVersionsPreferNumeric"
+            },
+            "*.steps": {
+              "key": "id|name|uses|run"
+            }
+          }
+        }
+      },
+      {
+        "type": "Readme",
+        "pattern": "README.md",
+        "options": {
+          "badges": [
+            {
+              "name": "Build Action Status",
+              "icon": "https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2F{{github.user}}%2F{{github.repo}}%2Fbadge&style=flat",
+              "url": "https://actions-badge.atrox.dev/{{github.user}}/{{github.repo}}/goto",
+              "order": 0.21
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
