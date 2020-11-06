@@ -63,7 +63,7 @@
       }
     ],
     "usedBy": [
-      "bitdiver/logadapter-arangodb",
+      "bitdiver/definition",
       "xhubioTable/data-generator",
       "xhubioTable/file-processor",
       "xhubioTable/importer-xlsx",
