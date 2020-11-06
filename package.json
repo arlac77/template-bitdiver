@@ -65,6 +65,7 @@
     "usedBy": [
       "bitdiver/definition",
       "bitdiver/logadapter-arangodb",
+      "bitdiver/logadapter-dispatcher",
       "bitdiver/model",
       "bitdiver/result-rest-api",
       "bitdiver/runner-server",
