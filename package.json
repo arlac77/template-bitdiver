@@ -63,7 +63,7 @@
       }
     ],
     "usedBy": [
-      "xhubioTable/model-matrix"
+      "xhubioTable/quickstart-source"
     ]
   }
 }
