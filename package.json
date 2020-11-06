@@ -1,7 +1,6 @@
 {
   "template": {
-    "inheridFrom": [
-    ],
+    "inheridFrom": [],
     "mergers": [
       {
         "type": "Skip",
@@ -62,6 +61,9 @@
           ]
         }
       }
+    ],
+    "usedBy": [
+      "xhubioTable/importer-xlsx"
     ]
   }
 }
