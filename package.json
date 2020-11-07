@@ -36,6 +36,10 @@
             }
           ]
         }
+      },
+      {
+        "type": "ReplaceIfEmpty",
+        "pattern": "**/*"
       }
     ],
     "usedBy": [
