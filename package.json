@@ -1,7 +1,8 @@
 {
   "template": {
     "inheritFrom": [
-      "arlac77/template-npm"
+      "arlac77/template-npm",
+      "arlac77/template-semantic-release"
     ],
     "mergers": [
       {
