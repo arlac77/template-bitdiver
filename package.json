@@ -53,6 +53,7 @@
     ],
     "usedBy": [
       "bitdiver/definition",
+      "bitdiver/logadapter",
       "bitdiver/logadapter-arangodb",
       "bitdiver/logadapter-dispatcher",
       "bitdiver/model",
