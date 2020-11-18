@@ -6,7 +6,7 @@
     ],
     "mergers": [
       {
-        "type": "Package",
+        "type": "Skip",
         "pattern": "package.json"
       },
       {
