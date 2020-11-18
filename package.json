@@ -6,6 +6,10 @@
     ],
     "mergers": [
       {
+        "type": "Package",
+        "pattern": "package.json"
+      },
+      {
         "type": "YAML",
         "pattern": ".github/workflows/*.yml",
         "options": {
