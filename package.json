@@ -65,7 +65,8 @@
       "xhubioTable/model",
       "xhubioTable/model-decision",
       "xhubioTable/model-matrix",
-      "xhubioTable/processor"
+      "xhubioTable/processor",
+      "xhubioTable/logger"
     ]
   }
 }
