@@ -11,12 +11,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: 'Build / Test Node ${{ matrix.node-version }}'
-        uses: actions/setup-node@v3.2.0
+        uses: actions/setup-node@v3.3.0
         with:
           node-version: '${{ matrix.node-version }}'
           cache: 'npm'
-      - run: npm ci
-      - run: npm test
+      - run: npm cit
+      - run: --delete-- npm ci
+      - run: --delete-- npm install
+      - run: --delete-- npm test
       - run: npx semantic-release
         env:
           CI: 'true'
