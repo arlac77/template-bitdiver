@@ -7,11 +7,11 @@ jobs:
       matrix:
         node-version:
           - -14
-          - 14.20.1
+          - 14.21.0
     steps:
       - uses: actions/checkout@v3
       - name: 'Build / Test Node ${{ matrix.node-version }}'
-        uses: actions/setup-node@v3.5.1
+        uses: actions/setup-node@v3.6.0
         with:
           node-version: '${{ matrix.node-version }}'
           cache: 'npm'
