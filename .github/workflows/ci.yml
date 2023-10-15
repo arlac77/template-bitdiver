@@ -16,9 +16,6 @@ jobs:
           node-version: '${{ matrix.node-version }}'
           cache: 'npm'
       - run: npm cit
-      - run: --delete-- npm ci
-      - run: --delete-- npm install
-      - run: --delete-- npm test
       - run: npx semantic-release
         env:
           CI: 'true'
